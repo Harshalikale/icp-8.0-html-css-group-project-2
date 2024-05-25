@@ -194,11 +194,14 @@ cursor: pointer;
 
 
 
-  /* small Devices (up to 600px) */
+  /* small Devices (up to 500px) */
 @media screen and (max-width: 600px) {
 .navbar ul li a{
-font-size: 13px;
-padding: 6px;
+font-size: 10px;
+padding: 4px;
+margin-left: 0px;
+padding-left: 0px;
+justify-content: start;
 }
 h1 {
 font-size: 24px;
@@ -236,6 +239,9 @@ padding: 15px;
 }
 .footer-address {
 padding-left: 0;
+}
+.meanu{
+    font-size: 12px;
 }
 
 
